@@ -6,7 +6,7 @@
     "webNavigation",
     "webRequest"
   ],
-  "homepage_url": "https://github.com/bhudgens/zendesk_search_bookmark_enabler/tree/master",
+  "homepage_url": "https://github.com/anvaynk/zendesk_search_bookmark_enabler/tree/master",
   "description": "Grab Search From URL And Post to Zendesk Search",
   "web_accessible_resources": [
     "js/*"
