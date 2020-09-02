@@ -25,7 +25,7 @@ function getParameterByName(name) {
    * element on the search page
    */
   const domLoadTimer = setInterval(() => {
-    const _searchBox = document.getElementById('garden-field-container-1--input');
+    const _searchBox = document.querySelectorAll("input[data-test-id=search_advanced-search-box_input-field_media-input]")[0];
     if (_searchBox) {
       clearInterval(domLoadTimer);
       const _query = getParameterByName('query');
